@@ -3,8 +3,8 @@ const cardContent = card.querySelector('.card-content');
 
 card.addEventListener('mousemove', (e) => {
   const rect = card.getBoundingClientRect();
-  const x = e.clientX - rect.left; // mouse X inside card
-  const y = e.clientY - rect.top;  // mouse Y inside card
+  const x = e.clientX - rect.left; 
+  const y = e.clientY - rect.top;  
 
   const centerX = rect.width / 2;
   const centerY = rect.height / 2;
